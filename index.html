@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InStyle - Clash of Clans Clan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link href="tailwind.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #1a1a2e;
+      color: #f5f6fa;
+      font-family: 'Arial', sans-serif;
+    }
+    .navbar {
+      background-color: #222f3e;
+    }
+    .navbar-brand {
+      color: #e84118;
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+    .navbar-brand:hover {
+      color: #fff;
+    }
+    .nav-link {
+      color: #f5f6fa;
+    }
+    .nav-link:hover {
+      color: #e84118;
+    }
+    .hero {
+      background-image: url('https://example.com/clash-of-clans-bg.jpg'); /* Replace with your image URL */
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      color: #fff;
+    }
+    .btn-custom {
+      background-color: #e84118;
+      border: none;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    .btn-custom:hover {
+      background-color: #c23616;
+    }
+    .about-head p{
+      color: gray;
+    }
+    .team{
+      height: 100vh;
+    }
+    .card {
+      background-color: #222f3e;
+      border: none;
+    }
+    .card-title {
+      color: #fff;
+    }
+    .card-text{
+      color: gray;
+    }
+    .contact-form {
+      background-color: #222f3e;
+      padding: 30px;
+      border-radius: 8px;
+      color: #fff;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      background-color: #1a1a2e;
+      border: none;
+      color: #fff;
+    }
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      box-shadow: 0 0 5px #e84118;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">InStyle</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" data-aos="fade-in">
+    <div>
+      <h1>Welcome to InStyle</h1>
+      <p>Where Strategy Meets Style</p>
+      <a href="#about" class="btn btn-custom">Join Us</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about py-5">
+    <div class="container about-head text-center" data-aos="fade-up">
+      <h2>About Us</h2>
+      <p class="mt-4 text-lg">
+  Team InStyle is dedicated to creating a seamless Clash of Clans experience for our players and community. We bring together innovation, creativity, and passion for gaming.InStyle is a premier Clash of Clans clan dedicated to victory, teamwork, and style. Join us to dominate wars and events!
+</p>
+      <h2 class="text-2xl font-bold">Teamwork Philosophy</h2>
+      <p class="mt-4 text-gray-700">
+  At Team InStyle, we believe that collaboration is the cornerstone of success. Our team works in harmony to achieve collective goals, ensuring that every member's ideas and efforts contribute to the bigger picture.
+</p>
+<h2>Member Relations</h2>
+<p class="mt-4 text-gray-700">
+  Building meaningful relationships with our members is at the heart of what we do. Through open communication, mutual respect, and a shared vision, we create a community where everyone feels valued and supported.
+</p>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+<section class="team-section bg-gradient-to-r from-black to-gray-900 text-white h-screen py-16">
+  <div class="max-w-7xl mx-auto px-6 md:px-12">
+    <!-- Section Header -->
+    <div class="text-center mb-12">
+      <h2 class="text-5xl font-extrabold text-yellow-400">Clan Leadership</h2>
+      <p class="mt-4 text-gray-300">
+        Meet the fearless leaders of Team InStyle. With unparalleled strategy and teamwork, they guide the clan to glory in Clash of Clans.
+      </p>
+    </div>
+
+    <!-- Team Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Clan Leader -->
+      <div class="relative bg-gray-800 rounded-xl p-6 transition-transform transform hover:scale-105 hover:shadow-2xl">
+        <div class="flex justify-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Abdur Razzaq"
+            class="w-32 h-32 rounded-full border-4 border-yellow-400"
+          />
+        </div>
+        <h3 class="mt-6 text-2xl font-bold text-center">Abdur Razzaq</h3>
+        <p class="text-center text-yellow-400 text-lg">Clan Leader</p>
+        <p class="mt-4 text-gray-400 text-sm text-center">
+          As the fearless leader of Team InStyle, Abdur Razzaq combines strategy and leadership to ensure victory in every battle.
+        </p>
+      </div>
+
+      <!-- Co-Leaders -->
+      <div class="relative bg-gray-800 rounded-xl p-6 transition-transform transform hover:scale-105 hover:shadow-2xl">
+        <div class="flex justify-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Waqar"
+            class="w-32 h-32 rounded-full border-4 border-red-500"
+          />
+        </div>
+        <h3 class="mt-6 text-2xl font-bold text-center">Waqar</h3>
+        <p class="text-center text-red-500 text-lg">Co-Leader</p>
+        <p class="mt-4 text-gray-400 text-sm text-center">
+          A tactical genius and resource manager, Waqar ensures smooth coordination within the clan.
+        </p>
+      </div>
+
+      <div class="relative bg-gray-800 rounded-xl p-6 transition-transform transform hover:scale-105 hover:shadow-2xl">
+        <div class="flex justify-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Haris"
+            class="w-32 h-32 rounded-full border-4 border-red-500"
+          />
+        </div>
+        <h3 class="mt-6 text-2xl font-bold text-center">Haris</h3>
+        <p class="text-center text-red-500 text-lg">Co-Leader</p>
+        <p class="mt-4 text-gray-400 text-sm text-center">
+          Known for defensive mastery, Haris fortifies the clan’s bases and leads critical defenses.
+        </p>
+      </div>
+
+      <div class="relative bg-gray-800 rounded-xl p-6 transition-transform transform hover:scale-105 hover:shadow-2xl">
+        <div class="flex justify-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Waqas"
+            class="w-32 h-32 rounded-full border-4 border-red-500"
+          />
+        </div>
+        <h3 class="mt-6 text-2xl font-bold text-center">Waqas</h3>
+        <p class="text-center text-red-500 text-lg">Co-Leader</p>
+        <p class="mt-4 text-gray-400 text-sm text-center">
+          A skilled strategist, Waqas devises plans to outsmart opponents in war.
+        </p>
+      </div>
+
+      <div class="relative bg-gray-800 rounded-xl p-6 transition-transform transform hover:scale-105 hover:shadow-2xl">
+        <div class="flex justify-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Asmat"
+            class="w-32 h-32 rounded-full border-4 border-red-500"
+          />
+        </div>
+        <h3 class="mt-6 text-2xl font-bold text-center">Asmat</h3>
+        <p class="text-center text-red-500 text-lg">Co-Leader</p>
+        <p class="mt-4 text-gray-400 text-sm text-center">
+          Expert in resource management and player mentoring, Asmat ensures the clan's progress.
+        </p>
+      </div>
+
+      <!-- Elders -->
+      <div class="relative bg-gray-800 rounded-xl p-6 transition-transform transform hover:scale-105 hover:shadow-2xl">
+        <div class="flex justify-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Elder"
+            class="w-32 h-32 rounded-full border-4 border-blue-400"
+          />
+        </div>
+        <h3 class="mt-6 text-2xl font-bold text-center">Elder</h3>
+        <p class="text-center text-blue-400 text-lg">Support Specialist</p>
+        <p class="mt-4 text-gray-400 text-sm text-center">
+          The Elders ensure smooth day-to-day operations, support new members, and safeguard clan resources.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4" data-aos="fade-up">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form class="contact-form" data-aos="fade-up" data-aos-delay="200">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom w-100">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="bg-gray-900 text-white py-12">
+
+  <!-- Copyright Section -->
+  <div class="mt-12 border-t border-gray-700 pt-6 text-center text-gray-400">
+    <p>&copy; 2024 Team InStyle. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
